@@ -56,7 +56,10 @@ itg = int(si)
 flt = float(sf)
 print(itg + flt)
 
-
-
+s1 = 'Where are the snows of yesteryear?'
+s2 = s1.split()
+s3 = sorted(s2)
+print(s3)
+print(s3[1])
 
 
