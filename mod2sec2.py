@@ -1,4 +1,4 @@
-# Essentials2 Module 2 Section 2
+# mod2sec2.py
 
 # STRINGS
 

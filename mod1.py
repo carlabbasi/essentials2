@@ -1,4 +1,4 @@
-# Essentials 2 Module 1
+# mod1.py
 
 # loop comprehensions
 loop = [[(num1, num2) for num2 in range(5)] for num1 in range(5)]

@@ -1,4 +1,4 @@
-# Essentials2 Module 2 Section 3
+# mod2sec3.py
 
 # STRING METHODS
 
