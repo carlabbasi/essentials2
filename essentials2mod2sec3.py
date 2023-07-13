@@ -193,7 +193,21 @@ print("I know that I know nothing. Part 1.".title())
 print("I KNOW that I kNOw noTHing. PARt 1.".title())
 
 
+def mysplit(string):
+    if type(string) != str:
+        print("Function requires a string!")
+        return None
 
+    else:
+        split_string = string.split()
+        return split_string
+
+print(mysplit("To be or not to be, that is the question"))
+print(mysplit("To be or not to be,that is the question"))
+print(mysplit("   "))
+print(mysplit(" abc "))
+print(mysplit(""))
+print(mysplit(1243))
 
 
 
