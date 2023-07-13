@@ -1,4 +1,6 @@
-# Essentials2 Module 2
+# Essentials2 Module 2 Section 2
+
+# STRINGS
 
 multi = """multiline
 string
@@ -74,7 +76,7 @@ alphabet = alphabet + "z"
 print(alphabet)
 
 
-# min() finds the minimum element of the sequence passed as an argument. min as per ascii/unicode table
+# min() FUNC. finds the minimum element of the sequence passed. min as per ascii/unicode table
 print(min("aAbByYzZ"))
 
 t = 'The Knights Who Say "Ni!"'
@@ -82,3 +84,37 @@ print('[' + min(t) + ']')
 
 t = [0, 1, 2]
 print(min(t))
+
+
+# max() FUNC. finds the maximum element of the sequence passed. max as per ascii/unicode table (opposite to min)
+print(max("aAbByYzZ"))
+
+t = 'The Knights Who Say "Ni!"'
+print('[' + max(t) + ']')
+
+t = [0, 1, 2]
+print(max(t))
+
+
+# list() FUNC. takes its argument (a string) and creates a new list containing all the string's characters,
+# one per list element.
+print(list("abcabc"))
+
+
+# index() METHOD. searches the sequence from the beginning, in order to find the first element of the value specified
+# in its argument. Returns the index of the first occurrence.
+print("aAbByYzZaA".index("b"))
+print("aAbByYzZaA".index("Z"))
+print("aAbByYzZaA".index("A"))
+
+
+# count() METHOD. counts all occurrences of the element inside the sequence.
+print("abcabc".count("b"))
+print('abcabc'.count("d"))
+
+# ADDITIONAL STRING METHODS: https://docs.python.org/3.4/library/stdtypes.html#string-methods
+
+
+
+
+
