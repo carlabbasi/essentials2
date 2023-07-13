@@ -208,9 +208,3 @@ print(mysplit("   "))
 print(mysplit(" abc "))
 print(mysplit(""))
 print(mysplit(1243))
-
-
-
-
-
-
