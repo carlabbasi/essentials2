@@ -1,4 +1,4 @@
-# mod2sec3.py
+# mod2sect3.py
 
 # STRING METHODS
 
