@@ -1,4 +1,4 @@
-# mod2sec2.py
+# mod2sect2.py
 
 # STRINGS
 
