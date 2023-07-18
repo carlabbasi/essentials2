@@ -20,7 +20,7 @@ print('b' * 4)
 
 
 # ord() function. ord = ASCII/UNICODE code point value (ord = ordinal)
-print(ord("C"))     # prints C code point == 67
+print(ord(""))     # prints C code point == 67
 print(ord("!"))     # prints ! code point == 33
 
 # chr() function. chr = convert code point number to character (chr = character) (opposite to ord)

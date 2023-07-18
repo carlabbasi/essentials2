@@ -61,5 +61,3 @@ s2 = s1.split()
 s3 = sorted(s2)
 print(s3)
 print(s3[1])
-
-
